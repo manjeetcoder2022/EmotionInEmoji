@@ -1,0 +1,69 @@
+body
+{
+  color: white;
+  background: #c0d3ff;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+#emoji_container{
+width: 420px;
+letter-spacing: 4px;
+margin: 20px;
+border-radius: 15px;
+}
+
+
+.component h4{
+  background-color: rgb(234, 243, 234);
+  width:190px;
+  border-radius: 10px;
+  color: rgb(129, 230, 129);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+overflow: hidden;
+
+}
+#webcam,#result {
+  border:2px  black;
+  width: 350px;
+  height: 250px;
+  border-style:dotted;
+}
+
+#snap h4{
+  background-color: rgb(234, 243, 234);
+  width:190px;
+  border-radius: 10px;
+  color: rgb(129, 230, 129);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#prediction_1 ,#prediction_2{
+  font-size: 22px;
+  color: rgb(27, 169, 225);
+  font-weight: bold;
+}
+#accuracy_1,#accuracy_2{
+  font-size: 22px;
+  color: rgb(234, 113, 20);
+  font-weight: bold;
+}
